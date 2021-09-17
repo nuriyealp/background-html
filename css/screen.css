@@ -109,7 +109,8 @@ header p {
   background-color: #e5e9dc;
   padding: 20px 40px;
   box-sizing: border-box;
-  font-size: 85%;
+  font-size: 114%;
+  background-image: linear-gradient(to bottom, #e5e5e5, #fff);
 }
 
 .birds {
