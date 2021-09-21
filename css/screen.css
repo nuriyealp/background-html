@@ -6,12 +6,15 @@ html {
 body {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
+
 /* Main Column Typography*/
 .main-area h2 {
   font-size: 200%;
@@ -29,24 +32,18 @@ img {
 }
 
 .container {
-  width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  background: url(../images/color-tile.png) left bottom repeat-x,
-    #fff url(../images/color-tile.png) left top repeat-x;
-  background-color: #fff;
-  background-repeat: repeat-x;
-  padding-top: 15px;
+  max-width: 940px;
+  margin: 0 auto;
   padding-left: 40px;
-  box-sizing: border-box;
+  padding-right: 40px;
 }
 
 header {
   padding-top: 20px;
-  color: #617140;
-  background-image: url(../images/flower.jpg);
+  color: #fff;
   background-position: right center;
   background-repeat: no-repeat;
+  background-color: #617140;
 }
 
 header h1 {
@@ -77,10 +74,9 @@ header p {
 
 .site-nav a {
   display: block;
-  color: #617140;
+  color: #fff;
   text-decoration: none;
   padding: 10px 20px;
-  background-color: #fff;
   border: 3px solid #e5e9dc;
   border-bottom: none;
 }
@@ -90,10 +86,10 @@ header p {
 }
 
 /* End Site Navigation */
-
 .content-area {
   border-top: 3px solid #e5e9dc;
   border-bottom: 3px solid #e5e9dc;
+  background-color: #fff;
 }
 
 .main-area {
@@ -110,59 +106,8 @@ header p {
   padding: 20px 40px;
   box-sizing: border-box;
   font-size: 114%;
-  background-image: linear-gradient(to bottom, #e5e5e5, #fff);
 }
 
-.birds {
-  background: #c2bbb1 url(../images/bird.jpg) center center no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 100px 0;
-}
-
-.birds p {
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  text-shadow: 1px 1px 0 #000;
-  display: inline-block;
-  padding: 10px;
-}
-/*UI Menu*/
-.ui-menu ul {
-  margin: 0;
-  padding: 0;
-}
-.ui-menu li {
-  float: left;
-  list-style: none;
-  margin-right: 20px;
-}
-.ui-menu a {
-  display: block;
-  width: 50px;
-  height: 50px;
-  background-image: url(../images/sprites.png);
-  text-indent: -9999px;
-  background-repeat: no-repeat;
-}
-.ui-home a:hover {
-  background-position: -50px 0;
-}
-
-.ui-profile a {
-  background-position: 0 -50px;
-}
-.ui-profile a:hover {
-  background-position: -50px -50px;
-}
-
-.ui-settings a {
-  background-position: 0 -100px;
-}
-.ui-settings a:hover {
-  background-position: -50px -100px;
-}
 footer {
   text-align: center;
   font-size: 85%;
